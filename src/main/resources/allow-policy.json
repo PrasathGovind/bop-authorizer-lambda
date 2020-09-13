@@ -1,0 +1,19 @@
+{
+  "principalId": "user",
+  "policyDocument": {
+    "Version": "2012-10-17",
+    "Statement": [
+      {
+        "Action": "execute-api:Invoke",
+        "Effect": "Allow|Deny",
+        "Resource": ["execute-api:/*"]
+      }
+    ]
+  },
+  "context": {
+    "stringKey": "value",
+    "numberKey": "1",
+    "booleanKey": "true"
+  },
+  "usageIdentifierKey": "api-key"
+}
