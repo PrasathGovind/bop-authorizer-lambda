@@ -1,12 +1,12 @@
 {
-  "principalId": "user",
+  "principalId": "PrasathGovind",
   "policyDocument": {
     "Version": "2012-10-17",
     "Statement": [
       {
         "Action": "execute-api:Invoke",
         "Effect": "Deny",
-        "Resource": ["execute-api:/*"]
+        "Resource": ["arn:aws:execute-api:us-east-2:635569081895:quf9s3hlb8/*/POST/loan/procurement"]
       }
     ]
   }
